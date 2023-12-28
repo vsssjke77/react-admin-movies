@@ -1,9 +1,9 @@
 ﻿
-import './App.css';
+import './Header.css';
 
 
-function App() {
-    
+function Header() {
+
     return (
         <header>
             <h1>Админка фильмотеки</h1>
@@ -11,9 +11,9 @@ function App() {
                 <p>Валентин Снедков</p>
             </div>
         </header>
-        
+
     );
-    
+
 }
 
-export default App;
+export default Header;
