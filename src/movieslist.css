@@ -58,6 +58,15 @@
     background: #FFFFFF;
     box-shadow: 0px 1px 2px 0px #00000040;
 }
+    .listitem:hover {
+        background-color: #EBF4FF;
+        box-shadow: 0px 2px 5px 0px #00000040;
+    }
+    .listitem:active {
+        background: linear-gradient(0deg, rgba(108, 108, 108, 0.81), rgba(108, 108, 108, 0.81)), linear-gradient(0deg, #FAFAFA, #FAFAFA);
+        border: 1px solid #6C6C6CCF;
+        box-shadow: 0px 1px 2px 0px #00000040;
+    }
 .secondstring{
     display: flex;
     margin-left: 15px;
