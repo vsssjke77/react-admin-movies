@@ -4,6 +4,21 @@
     top: 59px;
     border-right: 1px solid #D9D9D985
 }
+#addmovie {
+    width: 401px;
+    height: 32px;
+    margin-left: 9px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #55d394;
+    color: midnightblue;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+}
 #searchfilm {
     width: 325px;
     height: 32px;
@@ -101,4 +116,9 @@
     left: 15px;
     color: #000000;
     box-sizing: border-box;
+}
+.disabled {
+    pointer-events: none;
+    opacity: 0.5; /* Измените значение opacity в соответствии с вашими предпочтениями */
+    /* Дополнительные стили, например, затемнение фона */
 }

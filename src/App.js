@@ -1,9 +1,6 @@
-﻿
-import './App.css';
-
+﻿import React from 'react';
 
 function App() {
-    
     return (
         <header>
             <h1>Админка фильмотеки</h1>
@@ -11,9 +8,7 @@ function App() {
                 <p>Валентин Снедков</p>
             </div>
         </header>
-        
     );
-    
 }
 
 export default App;
