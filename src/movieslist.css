@@ -1,0 +1,124 @@
+﻿#secmovieslist {
+    position: absolute;
+    width: 427px;
+    top: 59px;
+    border-right: 1px solid #D9D9D985
+}
+#addmovie {
+    width: 401px;
+    height: 32px;
+    margin-left: 9px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #55d394;
+    color: midnightblue;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+}
+#searchfilm {
+    width: 325px;
+    height: 32px;
+    margin-left: 9px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #ECF1F7;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #00000075;
+    margin-bottom: 7px;
+}
+#buttonsearch {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: static;
+    width: 68px;
+    height: 32px;
+    top: 69px;
+    left: 347px;
+    border-radius: 8px;
+    background-color: #ECF1F7;
+    box-shadow: 0px 2px 2px 0px #00000040;
+    color: #336FEE;
+    border: none;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+#movieslist {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.listitem {
+    flex-wrap: wrap;
+    width: 404px;
+    height: 48px;
+    display: flex;
+    border-radius: 8px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px 0px #00000040;
+}
+    .listitem:hover {
+        background-color: #EBF4FF;
+        box-shadow: 0px 2px 5px 0px #00000040;
+    }
+    .listitem:active {
+        background: linear-gradient(0deg, rgba(108, 108, 108, 0.81), rgba(108, 108, 108, 0.81)), linear-gradient(0deg, #FAFAFA, #FAFAFA);
+        border: 1px solid #6C6C6CCF;
+        box-shadow: 0px 1px 2px 0px #00000040;
+    }
+.secondstring{
+    display: flex;
+    margin-left: 15px;
+    margin-top: 4px;
+    gap: 8px;
+}
+    .secondstring p {
+        display: flex;
+        margin: 0;
+        font-family: Inter;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 13px;
+        letter-spacing: 0em;
+        text-align: left;
+        position: static;
+        color: #6C6C6C;
+    }
+#itemtitle {
+    margin: 0;
+    display: flex;
+    position: relative;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 100%;
+    height: 15px;
+    top: 7px;
+    left: 15px;
+    color: #000000;
+    box-sizing: border-box;
+}
+.disabled {
+    pointer-events: none;
+    opacity: 0.5; /* Измените значение opacity в соответствии с вашими предпочтениями */
+    /* Дополнительные стили, например, затемнение фона */
+}

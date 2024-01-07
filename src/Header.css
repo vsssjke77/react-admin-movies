@@ -1,9 +1,11 @@
-header {
+﻿header {
+    position: fixed;
     width: 1200px;
     height: 52px;
     display: flex;
     align-items: center;
     box-shadow: 0px 2px 5px 0px #00000040;
+    z-index: 1;
 }
 
 h1 {
@@ -12,7 +14,6 @@ h1 {
     height: 25.56px;
     margin-top: 13px;
     margin-left: 16px;
-
     font-size: 24px;
     font-weight: 500;
     line-height: 29px;
